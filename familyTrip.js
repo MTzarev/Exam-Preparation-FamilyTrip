@@ -10,7 +10,6 @@ let totalPrice=0
     }else {
         totalPrice = overnights*overnightPrice+additionalCost
     }
-          
     if (totalPrice<=budget){
         console.log(`Ivanovi will be left with ${(budget-totalPrice).toFixed(2)} leva after vacation.`);
     }else {
